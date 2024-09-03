@@ -6,4 +6,7 @@ Offensive Security is focused on breaking into system. it can be achieved by exp
 
 Defensive Security's two main tasks 
 1.Preventing intrusions from occurring
-2.Detecting intrusions when they occur and responding properly 
+2.Detecting intrusions when they occur and responding properly
+
+Blue Team are part of Defensive Security.
+
