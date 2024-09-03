@@ -10,3 +10,5 @@ Defensive Security's two main tasks
 
 Blue Team are part of Defensive Security.
 
+What I cover this time:
+SOC / Threat intelligence / DFIR / Malware Analysis
