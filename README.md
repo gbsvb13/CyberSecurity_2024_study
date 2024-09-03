@@ -8,9 +8,3 @@ Defensive Security's two main tasks
 1.Preventing intrusions from occurring
 2.Detecting intrusions when they occur and responding properly
 
-Blue Team are part of Defensive Security.
-
-What I cover this time:
-SOC / Threat intelligence / DFIR / Malware Analysis
-
-SOC : Security Operation Centor
