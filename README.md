@@ -12,3 +12,5 @@ Blue Team are part of Defensive Security.
 
 What I cover this time:
 SOC / Threat intelligence / DFIR / Malware Analysis
+
+SOC : Security Operation Centor
