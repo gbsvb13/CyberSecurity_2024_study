@@ -32,3 +32,5 @@ but MAC address can be faked or spoofed and the spoofed MAC address can deceive 
 Ping used determine the performance of a connection between devices.
 Ping measures ICMP(Internet Control Message Protocol)'s travelling time to travelling another device by measuring time of ICMP's echo packet and ICMP's echo reply from the target device.
 
+0905
+The idea of web application : a program running on a remote server.
