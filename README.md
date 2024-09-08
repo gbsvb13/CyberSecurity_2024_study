@@ -34,3 +34,55 @@ Ping measures ICMP(Internet Control Message Protocol)'s travelling time to trave
 
 0905
 The idea of web application : a program running on a remote server.
+
+0907
+Web application's security risks
+Identification and Authentication Failure:
+allowing brute force/storing user's ps in plain texts/weak passwords
+
+Broken Access control
+meaning: an attacker can access information or perform actions not intended for them 
+vulnerabilities : giving users more access permissions than they need/
+IDOR : Insecure Direct Object References
+ex) a photo named 1020, then attacker can access a photo named 1021 or 1022
+
+injection
+make attaker can inject malicious code into web code
+Cause : lack of proper validation and sanitization of user's input
+
+Cryptographic failures
+*key of Cryptography: encrypte the data and make it look gibberish who doesn't have a key
+Use HTTP not HTTPS : HTTPS is secured version of HTTP.
+Relying on a weak cryptographic algoritm
+using dafault or weak keys. ex)1q2w3e4r
+
+DNS
+DNS : Domain Name System
+Domain names are IP address.
+
+Domain Hierarchy
+TLD : Top-Level Domain
+Root Domain : .
+Top-lelve Domain : .edu, .com, .gov, .mil
+Second-name domain : etc.
+
+TLD divided by two, gTLD(generic top level) and ccTLD(country code top level domain).
+gTLD used its domain name for their commercial perpose. ex).org : organization
+ccTLD used for geographical purposes. ex).ca : canada.
+but there's new gTLDs ranging from .online/.club etc.
+
+In Tryhackme.com , .com is top level domain and Tryhackme is second level domain.
+the second level domain cannot start with hyphens or consecutive hyphens.
+if admin.tryhackme.com, admin is subdomain part.
+
+DNS Record Types
+A Record : Recording ipv4 addresses
+AAAA Record : Recording ipv6 adresses
+CNAME Record : resolve to another domain name
+MX Record : resolve to the address of the servers that handle the email for the domain you are querying.
+Txt Record : Free text fields. any text-based data can be restored. used commonly list servers and signing up for third party services.
+
+
+
+
+
