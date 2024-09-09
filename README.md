@@ -82,7 +82,17 @@ CNAME Record : resolve to another domain name
 MX Record : resolve to the address of the servers that handle the email for the domain you are querying.
 Txt Record : Free text fields. any text-based data can be restored. used commonly list servers and signing up for third party services.
 
+240909
+URL : Uniform Resource Locater.
+its instruction of how to access a resource on the internet.
+URL is composed to; Scheme, User, Host, Port, Path, Query String, Fragment. (it doesn't use all features in every request)
 
+Methods of HTTPs
+
+GET request : getting information from the web server
+POST request : used submittiong data to the web server and creating new records(potentially)
+PUT request : used for submittiong data to a web server to update data
+DELETE request : deleting information from a web server
 
 
 
