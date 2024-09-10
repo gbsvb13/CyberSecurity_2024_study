@@ -94,5 +94,19 @@ POST request : used submittiong data to the web server and creating new records(
 PUT request : used for submittiong data to a web server to update data
 DELETE request : deleting information from a web server
 
+HTTP's status codes
+100 ~ 199 : first part of request is completed and should continue sending the rest of their request. no longer appears in normal situations.
+200 ~ 299 : request was successfully completed.
+300 ~ 399 : telling clinent to go another resource.
+400 ~ 499 : Clinet Errors. there is a error with client's request. ex) 404 not found
+500 ~ 599 : Server Errors. server side's error occured.
+
+Common HTTP status codes:
+200 : OK
+201 : Created (resource has been created)
+301 : redirection to new webpage *webpage's information transferred.
+302 : Found. 
+400 : Bad Request - Something was either wrong or missing in their request. This could sometimes be used if the web server resource that is being requested expected a certain parameter that the client didn't send.
+401 : Not Authorised -
 
 
