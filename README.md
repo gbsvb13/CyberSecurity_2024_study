@@ -109,4 +109,15 @@ Common HTTP status codes:
 400 : Bad Request - Something was either wrong or missing in their request. This could sometimes be used if the web server resource that is being requested expected a certain parameter that the client didn't send.
 401 : Not Authorised -
 
+1002
+How website works
+Browser -> Request from browser(through Internet) -> server -> response from server -> internet -> Browser
+--> website works with Trade of requests between browser and server with internet.
+client side : Frontend / Server side : Backend.
 
+construction of website : html / Css / JavaScript.
+HTML and CSS are used for static website (not interaction with user)
+dynamic website : Javascript.(Interaction with user)
+
+In the test level in website, there might be a admin password or id in the website's source code. 
+if you can find it, you can invade website.
