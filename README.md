@@ -121,3 +121,5 @@ dynamic website : Javascript.(Interaction with user)
 
 In the test level in website, there might be a admin password or id in the website's source code. 
 if you can find it, you can invade website.
+
+HTML Injection is a vulnarability that occurs when unfiltered user input is displayed on the page.
