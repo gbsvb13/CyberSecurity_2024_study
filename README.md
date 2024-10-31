@@ -1,5 +1,6 @@
 # CyberSecurity_2024_study
 this txt file is my archive of studying cybersecurity- 2024.09.03 started.
+Studied with TryHackMe, Me Solely.
 
 cybersecurity divided into two species, Offensive Security and Defensive Security.
 Offensive Security is focused on breaking into system. it can be achieved by exploiting/abusing insecure setups and taking adventage of unenforced access control policies.
@@ -123,3 +124,37 @@ In the test level in website, there might be a admin password or id in the websi
 if you can find it, you can invade website.
 
 HTML Injection is a vulnarability that occurs when unfiltered user input is displayed on the page.
+
+1031
+Search Skills
+Not a surprising skill : 
+want to search specific word, "" used
+want to omit : - used, ex) pyramids -tourism or -tourism pyramids
+Can also search it by its filetype. ex) filetype:ppt cybersecurity
+
+Useful websites
+shodan : search engine, It allows me to search for specific types and versions of servers, networking equipment, industrial control systems, and IoT devices.
+If search apache in shodan, it shows web servers that uses apache now, shows its IP, language(https, etc) and countries that using apache now.
+
+Censys : similar to shodan but focuses on Internet-connected hosts,websites,certificates, and other internet assets.
+Virustotal : provides a virus-scanning service for files, URLs. also can search for hash, domain, IP adress , URL.
+Have I Been Pwned(HIBP) : does only one thing, checks if your email address leaked beta breach. so, if email address leaked and uses same passwords with that address, can prevent haking by changing it.
+
+CVE : Common Vulnerabilities and Exposures
+Each vulnerabilities have their own ID with a standardized format like CVE-2024-29988. it called CVE ID.
+the CVE ID used everywhere with same form; from security researchers to vendors and IT professionals.
+
+Exploit Database : If having permission, it used to finding working exploit code. it lists exploit codes from various authors.
+Github : Github can contain many tools related to CVEs, along with proof-of-concept(PoC) and exploit codes.
+
+Technical Documentation
+Linux manual page : if check the manual page for the command ip : man ip form. q to quit. #if want to see hacker-looked : run it with attackbox.
+
+Use social medias and stay updated with new cyber security trends, technologies, and products.
+LinkedIn / Facebook / X(Twitter)
+
+
+
+
+
+C
